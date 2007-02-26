@@ -1,0 +1,7 @@
+CHANGELOG
+Makefile.PL
+example.pdf
+example.pod
+pod2axpoint
+t/run.t
+t/test.pod

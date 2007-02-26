@@ -1,0 +1,9 @@
+0.02
+	o renamed distribution to Pod::AxPoint so it
+	  can be better found in cpan.
+
+	o added test case for 'make test'.	
+
+
+0.01
+	o initial version
