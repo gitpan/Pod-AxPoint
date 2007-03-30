@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<slideshow>
+<slide>
+<title>test1
+
+</title><plain>text
+
+</plain></slide>
+<slide>
+<title>test2
+
+</title></slide>
+<slide>
+<title>a
+
+</title></slide>
+<slide>
+<title>test3
+
+</title><source-code> code
+ code
+ code </source-code></slide>
+<slide>
+<title>test4
+
+</title><source-code> if ($var) {print TRUE} </source-code></slide>
+<slide>
+<title>test5
+
+</title><list><point level="1"><plain>1st
+
+</plain></point><point level="1"><plain>2nd
+
+</plain></point></list></slide>
+<slide>
+<title>test5
+
+</title><plain><color name="blue"><u>http://example.com</u></color>
+<color name="blue"><u>http://example.com</u></color>
+
+</plain></slide>
+<slide>
+<title>test6
+
+</title><object none>
+ <media file="none"/>
+</object>
+
+</slide></slideshow>
