@@ -5,7 +5,7 @@ use lib qw(.);
 
 print STDERR "\n";
 
-if (system ( qq(perl -Iblib/lib blib/script/pod2axpoint > /dev/null 2>&1) )) {
+if (system ( qq($^X blib/script/pod2axpoint > /dev/null 2>&1) )) {
   pass ("Could execute pod2axpoint");
 }
 else {
@@ -13,7 +13,7 @@ else {
 }
 
 # create a slideshow
-my $cmd = qq( perl -Iblib/lib blib/script/pod2axpoint t/test.pod > t/test.xml);
+my $cmd = qq( $^X blib/script/pod2axpoint t/test.pod > t/test.xml);
 
 if ( system($cmd) ){
   fail ("Could not create slideshow: $!");

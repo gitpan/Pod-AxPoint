@@ -1,7 +1,7 @@
 #!/usr/bin/perl
 package Pod::AxPoint;
 
-$Pod::AxPoint::VERSION = 0.03;
+$Pod::AxPoint::VERSION = 0.04;
 
 use Pod::Tree;
 use Carp;
@@ -477,6 +477,6 @@ Thomas Linden <tlinden |AT| cpan.org>
 
 =head1 VERSION
 
-0.03
+0.04
 
 =cut

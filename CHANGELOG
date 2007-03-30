@@ -1,3 +1,6 @@
+0.04
+	o using $^X in t/run.t instead of "perl"
+
 0.03
 	o created extra perl module Pod::AxPoint, the
 	  script pod2axpoint now just calls it.
